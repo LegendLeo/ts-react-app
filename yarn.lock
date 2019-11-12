@@ -1290,6 +1290,11 @@
   resolved "https://registry.npm.taobao.org/@types/eslint-visitor-keys/download/@types/eslint-visitor-keys-1.0.0.tgz#1ee30d79544ca84d68d4b3cdb0af4f205663dd2d"
   integrity sha1-HuMNeVRMqE1o1LPNsK9PIFZj3S0=
 
+"@types/history@*":
+  version "4.7.3"
+  resolved "https://registry.npm.taobao.org/@types/history/download/@types/history-4.7.3.tgz#856c99cdc1551d22c22b18b5402719affec9839a"
+  integrity sha1-hWyZzcFVHSLCKxi1QCcZr/7Jg5o=
+
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.1"
   resolved "https://registry.npm.taobao.org/@types/istanbul-lib-coverage/download/@types/istanbul-lib-coverage-2.0.1.tgz#42995b446db9a48a11a07ec083499a860e9138ff"
@@ -1347,6 +1352,23 @@
   resolved "https://registry.npm.taobao.org/@types/react-dom/download/@types/react-dom-16.9.4.tgz?cache=0&sync_timestamp=1573057763685&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Freact-dom%2Fdownload%2F%40types%2Freact-dom-16.9.4.tgz#0b58df09a60961dcb77f62d4f1832427513420df"
   integrity sha1-C1jfCaYJYdy3f2LU8YMkJ1E0IN8=
   dependencies:
+    "@types/react" "*"
+
+"@types/react-router-dom@^5.1.2":
+  version "5.1.2"
+  resolved "https://registry.npm.taobao.org/@types/react-router-dom/download/@types/react-router-dom-5.1.2.tgz#853f229f1f297513c0be84f7c914a08b778cfdf5"
+  integrity sha1-hT8inx8pdRPAvoT3yRSgi3eM/fU=
+  dependencies:
+    "@types/history" "*"
+    "@types/react" "*"
+    "@types/react-router" "*"
+
+"@types/react-router@*":
+  version "5.1.2"
+  resolved "https://registry.npm.taobao.org/@types/react-router/download/@types/react-router-5.1.2.tgz#41e5e6aa333a7b9a2bfdac753c04e1ca4b3e0d21"
+  integrity sha1-QeXmqjM6e5or/ax1PAThyks+DSE=
+  dependencies:
+    "@types/history" "*"
     "@types/react" "*"
 
 "@types/react-slick@^0.23.4":
