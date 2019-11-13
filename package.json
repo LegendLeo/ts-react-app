@@ -1,5 +1,5 @@
 {
-  "name": "ts-react",
+  "name": "ts-react-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,7 +21,8 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
-    "eject": "react-app-rewired eject"
+    "eject": "react-app-rewired eject",
+    "server": "cd mock && hs -p 4000 -a localhost"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -41,6 +42,8 @@
   "devDependencies": {
     "babel-plugin-import": "^1.12.2",
     "customize-cra": "^0.8.0",
+    "http-proxy-middleware": "^0.20.0",
+    "http-server": "^0.11.1",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
     "react-app-rewired": "^2.1.5"
